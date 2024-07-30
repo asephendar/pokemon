@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import PokemonList from './pages/Pokemon.jsx';
-import BerryList from './pages/Bag.jsx';
+import PokemonList from './pages/pokemon.jsx';
+import BerryList from './pages/bag.jsx';
 import { PokemonProvider } from './contexts/PokemonContext';
 import { BerryProvider } from './contexts/BerryContext';
 
